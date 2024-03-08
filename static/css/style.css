@@ -1,0 +1,28 @@
+.row {
+    margin-top: 40px !important;
+}
+
+.book-button, .gym-button {
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-button:hover {
+    background: #17A2B8;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.gym-button:hover {
+    background: #523e78;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.exercise-type {
+    margin-top:15px !important;
+}
+
+ul.list-group-horizontal > li {
+    border:none !important;
+}
